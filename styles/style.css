@@ -248,8 +248,10 @@
 /* gradient image */
 
 .section-3{
-    background: black;
-    background:url('../images/watch.png');
+    
+    background:url('../images/gradient2.png');
+    border-color:black;
+    border-width: 5px;
     background-repeat: no-repeat;
     width:1500px;
     height:301px;
