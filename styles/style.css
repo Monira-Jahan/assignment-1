@@ -1,11 +1,10 @@
 *{
     margin:0;
-    /* font-family: 'Inter'; */
+   
 }
 /* header section */
 .header{
     background-image: url('../images/banner/banner1.png');
-    /* background-position:center; */
     background-size: cover;
     padding-top:10px;
     background-repeat:no-repeat;
@@ -20,13 +19,8 @@
     margin:0 0px 0 160px;
     align-items:center;
     color:#FFFFFF;
- 
-    /* font-style: normal; */
-    /* line-height: 79px; */
     margin: 170px 300px 330px 300px;
-    /* display:flex; */
     justify-content: space-around;
-    
 }
 .banner-title{ 
     color:black;
@@ -39,7 +33,7 @@
     padding-left: 800px;
 }
 .banner-description{
-    /* font-family: 'Work Sans'; */
+    
     color:black;
     font-size: 18px;
     margin-bottom:35px;
@@ -62,11 +56,10 @@
     right:0;
     margin-right:400px;
     margin-left: 30px;
-    /* margin-left:800px;  */
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: right;
-    /* margin-bottom: 20px; */
+    
 }
 .btn-primary:hover{
    
@@ -82,7 +75,6 @@
     text-align: left;
     font-family:'Inter';
     padding-left:850px;
-    /* padding-right: 20px; */
     padding-top: 370px;
     padding-bottom: 24px;
     margin-left: 150px;
@@ -94,16 +86,6 @@
     color: #757575;
     font-size:20px;
     text-align:left;
-    /* text-decoration: none; */
-    /* display:-inline-block;  */
-    /* padding-left:500px ;
-    /* padding-right:500px; */
-    /* padding-right:30px;
-    margin-left:500px; 
-    margin-right: 80px;margin-bottom: 30px; */ 
-  
-/* display:flex;  */
-    /* padding-left:1000px ; */
     padding-right:10px;
     padding-right:10px;
     margin-left:990px; 
@@ -117,7 +99,6 @@
     font-size:18px;
     text-align:left;
     display:flex; 
-    /* padding-left:700px ; */
     padding-right:10px;
     padding-right:10px;
     margin-left:980px; 
@@ -180,8 +161,7 @@
 }
 .section-1{
  display: flex;
- /* width: 1109px; */
- /* height: 808.46px; */
+
 }
 /* Section Two */
 .section-2 .section-title{
@@ -189,7 +169,7 @@
     font-weight: 700;
     font-size: 50px;
     text-align:center;
-    padding-left:150px;
+    padding-left:80px;
     padding-top: 80px;
     padding-bottom:50px;
     margin-top: 200px;
@@ -212,13 +192,7 @@
     padding:30px;
     padding-top:55px;
     margin-bottom: 30px;
-    /* padding-top:70px; */
-    /* margin-bottom: 30px; */
-    /* padding-left:550px; */
-    /* padding:50px; */
-    /* margin-left: 300px;
-    margin-bottom: 15px;
-    padding-bottom:80px; */
+   
     }
 .item-2{
     text-align: center;
@@ -305,12 +279,11 @@
     position: absolute;
     right:0;
     margin-right:1360px;
-    margin-left: 300px;;
-    /* margin-left:800px;  */
+    margin-left: 300px;
     margin-top: 130px;
     text-align: left;
     margin-bottom: 100px;
-    /* margin-bottom: 20px; */
+    
 }
 
 /* Section three */
@@ -319,9 +292,7 @@
     font-family: 'Work Sans' ;
     font-weight:700;
     font-size:45px;
-    
-    padding-left:200px;
-    
+    padding-left:90px;
     padding-bottom:50px;
     margin-top: 70px;
  }
@@ -330,9 +301,7 @@
     font-size: 18px;
     text-align: center;
     color: #757575;
-    /* align-items:center; */
     margin-bottom: 10px;
-    /* padding:50px 100px; */
     padding-left: 600px;
     padding-right: 600px;
 }
@@ -341,6 +310,7 @@
     gap:24px;
     margin-left: 150px;
     margin-right: 150px;
+    margin-bottom: 20px;
 }
 .resolution{
     background: #FFFFFF;
@@ -371,10 +341,6 @@
     background-position: cover;
     gap:100px;
     padding: 130px 200px; 
-    /* padding-left:-800px; */
-    /* margin-right: 00px; */
-    /* padding-bottom: 200px; */
-    /* padding-top: -900px; */
 }
 .contact .section-title-1{
     font-family: 'Work Sans';
@@ -403,11 +369,8 @@
     color: bisque;
     text-align: left;
     padding-top: 10px;
-    /* padding-right:200px; */
     padding-left:200px ;
-    /* padding-right:-600px; */
     padding-right:20px;
-    /* margin-left:450px;  */
     margin-right: 220px;
     margin-bottom: 30px;
 }
@@ -435,12 +398,18 @@
         margin-left:10px;
         margin-right: 320px;
     }
+   .contact .btn-primary-2:hover{
+   
+        background-color:#757575; /* Green */
+        color: white;
+    
+}
     .contact a{
-        /* display: flex; */
+       
         text-decoration: none;
         justify-content: space-between;
         padding-right:20px;
-        /* margin-left:200px; */
+        
     }
     .contact a .img-1{
         padding-left: 200px;
